@@ -1,0 +1,359 @@
+{
+  "movies": [
+    {
+      
+        "id": 1,
+        "title": "To All the Boys I've Loved Before",
+        "image": "/images/h1.jpg",
+        "description": "A teenage girl's secret love letters are exposed and wreak havoc on her love life.",
+        "year": "2018",
+        "genre": "Drama/Romance",
+        "imdb": "7.1",
+        "runtime": "1h 39m",
+        "rent": "",
+        "buy": ""
+    },
+    {
+        "id": 2,
+        "title": "Boo, Bitch",
+        "image": "/images/h2.jpg",
+        "description": "A high school senior whos lived her life safely under the radar seizes the opportunity to change her narrative and start living an epic life, only to find out the next morning that she’s a ghost.",
+        "year": "2022",
+        "genre": "Comedy/Drama",
+        "imdb": "5.5",
+        "runtime": "4h",
+        "rent": "",
+        "buy": ""
+    },
+    {
+        "id": 3,
+        "title": "Purple Hearts",
+        "image": "/images/h3.jpg",
+        "description": "An aspiring musician marries a soon-to-deploy Marine out of convenience. But a tragedy soon turns their fake relationship all too real.",
+        "year": "2022",
+        "genre": "Drama/Romance",
+        "imdb": "6.7",
+        "runtime": "2h 2m",
+        "rent": "",
+        "buy": ""
+    },
+    {
+        "id": 4,
+        "title": "Iron Man",
+        "image": "/images/h4.jpg",
+        "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+        "year": "2008",
+        "genre": "Action/Adventure",
+        "imdb": "7.9",
+        "runtime": "2h 6m",
+        "rent": "",
+        "buy": ""
+    },
+    {
+        "id": 5,
+        "title": "Superwoman",
+        "image": "/images/h5.jpg",
+        "description": "A superhero film based on the DC Comics character Wonder Woman, a warrior princess of the Amazons.",
+        "year": "2017",
+        "genre": "Action/Adventure",
+        "imdb": "7.4",
+        "runtime": "2h 21m",
+        "rent": "",
+        "buy": ""
+    },
+    {
+        "id": 6,
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "image": "/images/h6.jpg",
+        "description": "Blacksmith Will Turner teams up with eccentric pirate 'Captain' Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+        "year": "2003",
+        "genre": "Action/Adventure",
+        "imdb": "8.0",
+        "runtime": "2h 23m",
+        "rent": "",
+        "buy": ""
+    },
+    {
+        "id": 7,
+        "title": "Ice Age",
+        "image": "/images/h7.jpg",
+        "description": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
+        "year": "2002",
+        "genre": "Animation/Adventure",
+        "imdb": "7.5",
+        "runtime": "1h 21m",
+        "rent": "",
+        "buy": ""
+    },
+    {
+      "id": 8,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "image": "/images/h8.jpeg",
+      "description": "Without the guidance and protection of their professors, Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) begin a mission to destroy the Horcruxes, the sources of Voldemort's immortality. Though they must rely on one another more than ever, dark forces threaten to tear them apart. Voldemort's Death Eaters have seized control of the Ministry of Magic and Hogwarts, and they are searching for Harry -- even as he and his friends prepare for the ultimate showdown.",
+      "year": "2010",
+      "genre": "Family/Fantasy",
+      "imdb": "7.7",
+      "runtime": "2h 26m",
+      "rent": "",
+      "buy": ""
+    },
+  {
+      "id": 10,
+      "title": "Spider-Man: No Way Home",
+      "image": "/images/h10.jpg",
+      "description": "Spider-Man's identity is revealed, bringing his Super Hero responsibilities into conflict with his normal life and putting those he cares about most at risk.",
+      "year": "2021",
+      "genre": "Action/Adventure",
+      "imdb": "8.4",
+      "runtime": "2h 28m",
+      "rent": "",
+      "buy": ""
+  },
+  {
+      "id": 11,
+      "title": "Jumanji",
+      "image": "/images/h11.jpg",
+      "description": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
+      "year": "2017",
+      "genre": "Action/Adventure",
+      "imdb": "7.0",
+      "runtime": "1h 59m",
+      "rent": "",
+      "buy": ""
+  },
+  {
+      "id": 12,
+      "title": "Work It",
+      "image": "/images/h12.jpg",
+      "description": "When Quinn Ackerman's admission to the college of her dreams depends on her performance at a dance competition, she forms a ragtag group of dancers to take on the best squad in school.",
+      "year": "2020",
+      "genre": "Comedy/Music",
+      "imdb": "6.1",
+      "runtime": "1h 33m",
+      "rent": "",
+      "buy": ""
+  },
+  {
+      "id": 13,
+      "title": "Five Feet Apart",
+      "image": "/images/h13.jpg",
+      "description": "A pair of teenagers with cystic fibrosis meet in a hospital and fall in love, though their disease means they must avoid close physical contact.",
+      "year": "2019",
+      "genre": "Drama/Romance",
+      "imdb": "7.2",
+      "runtime": "1h 56m",
+      "rent": "",
+      "buy": ""
+  },{
+    "id": 14,
+    "title": "All the Bright Places",
+    "image": "/images/h14.jpg",
+    "description": "After meeting each other, two teenagers struggle with the emotional and physical scars of their past. They discover that even the smallest places and moments can mean something.",
+    "year": "2020",
+    "genre": "Drama/Romance",
+    "imdb": "6.5",
+    "runtime": "1h 47m",
+    "rent": "",
+    "buy": ""
+},
+{
+    "id": 15,
+    "title": "Red Notice",
+    "image": "/images/h15.jpg",
+    "description": "An Interpol agent tracks the world's most wanted art thief.",
+    "year": "2021",
+    "genre": "Action/Comedy",
+    "imdb": "6.3",
+    "runtime": "1h 58m",
+    "rent": "",
+    "buy": ""
+},
+{
+    "id": 16,
+    "title": "The Last Summer",
+    "image": "/images/h16.jpg",
+    "description": "A group of young people in Chicago come together during the summer before they head off to college.",
+    "year": "2019",
+    "genre": "Comedy/Drama",
+    "imdb": "5.6",
+    "runtime": "1h 49m",
+    "rent": "",
+    "buy": ""
+},
+{
+    "id": 17,
+    "title": "Captain America: The First Avenger",
+    "image": "/images/h17.jpg",
+    "description": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a 'Super-Soldier serum'. But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+    "year": "2011",
+    "genre": "Action/Adventure",
+    "imdb": "6.9",
+    "runtime": "2h 4m",
+    "rent": "",
+    "buy": ""
+}
+  ],
+    "series": [
+      {
+        "id": 1,
+        "title": "Stranger Things",
+        "image": "/images/s1.jpg",
+        "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+        "year": "2016",
+        "genre": "Drama/Fantasy",
+        "imdb": "8.7",
+        "seasons": "4"
+      },
+      {
+        "id": 2,
+        "title": "The Witcher",
+        "image": "/images/s2.jpg",
+        "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+        "year": "2019",
+        "genre": "Action/Adventure",
+        "imdb": "8.2",
+        "seasons": "2"
+      },
+      {
+        "id": 3,
+        "title": "Game of Thrones",
+        "image": "/images/s3.jpg",
+        "description": "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros.",
+        "year": "2011",
+        "genre": "Action/Drama",
+        "imdb": "9.2",
+        "seasons": "8"
+      },
+      {
+        "id": 4,
+        "title": "The Mandalorian",
+        "image": "/images/s4.jpg",
+        "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+        "year": "2019",
+        "genre": "Action/Sci-Fi",
+        "imdb": "8.8",
+        "seasons": "2"
+      },
+      {
+        "id": 5,
+        "title": "Breaking Bad",
+        "image": "/images/s5.jpg",
+        "description": "A high school chemistry teacher turned methamphetamine producer partners with a former student to secure his family's future.",
+        "year": "2008",
+        "genre": "Crime/Drama",
+        "imdb": "9.5",
+        "seasons": "5"
+      },
+      {
+        "id": 6,
+        "title": "The Boys",
+        "image": "/images/s6.jpg",
+        "description": "A group of vigilantes sets out to take down corrupt superheroes who abuse their superpowers.",
+        "year": "2019",
+        "genre": "Action/Comedy",
+        "imdb": "8.7",
+        "seasons": "3"
+      },
+      {
+        "id": 7,
+        "title": "Friends",
+        "image": "/images/s7.jpg",
+        "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.",
+        "year": "1994",
+        "genre": "Comedy/Romance",
+        "imdb": "8.9",
+        "seasons": "10"
+      },
+      {
+        "id": 8,
+        "title": "The Crown",
+        "image": "/images/s8.jpeg",
+        "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.",
+        "year": "2016",
+        "genre": "Biography/Drama",
+        "imdb": "8.7",
+        "seasons": "4"
+      },
+      {
+        "id": 9,
+        "title": "Lucifer",
+        "image": "/images/s9.jpg",
+        "description": "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity.",
+        "year": "2016",
+        "genre": "Crime/Drama",
+        "imdb": "8.1",
+        "seasons": "6"
+      },
+      {
+        "id": 10,
+        "title": "The Salvation",
+        "image": "/images/s10.jpg",
+        "description": "An MIT grad student and a tech billionaire team up in a desperate attempt to stop an asteroid from colliding with Earth.",
+        "year": "2017",
+        "genre": "Drama/Sci-Fi",
+        "imdb": "7.0",
+        "seasons": "2"
+      },
+      {
+        "id": 11,
+        "title": "Suits",
+        "image": "/images/s11.jpg",
+        "description": "On the run from a drug deal gone bad, Mike Ross, a brilliant college dropout, finds himself working with Harvey Specter, one of New York City's best lawyers.",
+        "year": "2011",
+        "genre": "Comedy/Drama",
+        "imdb": "8.4",
+        "seasons": "9"
+      },
+      {
+        "id": 12,
+        "title": "Gossip Girl",
+        "image": "/images/s12.png",
+        "description": "Privileged teens living on the Upper East Side of New York can hide no secret from the ruthless blogger who is always watching.",
+        "year": "2007",
+        "genre": "Drama/Romance",
+        "imdb": "7.4",
+        "seasons": "6"
+      },
+      {
+        "id": 13,
+        "title": "Never Have I Ever",
+        "image": "/images/s13.jpg",
+        "description": "The complicated life of a modern-day first generation Indian American teenage girl, inspired by Mindy Kaling's own childhood.",
+        "year": "2020",
+        "genre": "Comedy/Drama",
+        "imdb": "7.9",
+        "seasons": "4"
+      },
+      {
+        "id": 14,
+        "title": "Emily in Paris",
+        "image": "/images/s14.jpg",
+        "description": "A young American woman from the Midwest is hired by a marketing firm in Paris to provide them with an American perspective on things.",
+        "year": "2020",
+        "genre": "Comedy/Drama",
+        "imdb": "7.0",
+        "seasons": "3"
+      },
+      {
+        "id": 15,
+        "title": "Fate: The Winx Saga",
+        "image": "/images/s15.png",
+        "description": "A live-action adaptation of Nickelodeon's Winx Club (2004). Follows Bloom as she adjusts to life in the Otherworld, where she must learn to control her dangerous magical powers.",
+        "year": "2021",
+        "genre": "Action/Adventure",
+        "imdb": "6.9",
+        "seasons": "2"
+      },
+      {
+        "id": 16,
+        "title": "Manifest",
+        "image": "/images/s16.jpg",
+        "description": "After being presumed dead, passengers onboard Flight 828 return and discover the world has aged five years. They soon realize that their journey is far from over.",
+        "year": "2018",
+        "genre": "Drama/Mystery",
+        "imdb": "7.1",
+        "seasons": "4"
+      }
+    ]
+  }
+  

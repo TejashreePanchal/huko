@@ -1,0 +1,130 @@
+/* Common Styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  height: auto;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1F1F1F;
+  color: white;
+}
+
+.header .logo {
+  font-size: 48px; /* Increased size */
+  font-weight: bold;
+}
+
+.header .logo span {
+  font-size: 60px; /* Increased size for Huko */
+}
+
+.header .logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.header nav .center-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #1F1F1F;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+}
+
+.footer .logo {
+  font-size: 48px; /* Increased size */
+  font-weight: bold;
+}
+
+.footer .logo span {
+  font-size: 60px; /* Increased size for Huko */
+}
+
+.footer .nav, 
+.footer .actions, 
+.footer .links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .store-links img {
+  width: 140px;
+}
+
+.footer .social-links img {
+  width: 50px;
+}
+
+.footer .links {
+  flex-direction: column;
+  align-items: center; /* Added to center align */
+  gap: 10px; /* Added to space between rows */
+}
+
+.footer .links .row {
+  display: flex;
+  gap: 20px; /* Added to space between links */
+}

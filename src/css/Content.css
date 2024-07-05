@@ -1,0 +1,30 @@
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #1F1F1F;
+    color: white;
+    margin: 0px 0;
+  }
+  
+  .content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .content-info {
+    max-width: 600px;
+    margin-left: 20px;
+  }
+  
+  .content-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .content-info p {
+    font-size: 1.2em;
+  }
+  

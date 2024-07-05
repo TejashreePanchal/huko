@@ -1,0 +1,108 @@
+/* Auth Styles */
+.auth-container {
+  padding: 150px; /* Adjusted padding */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 180px;
+  padding-right: 300px;
+  background-color: #1F1F1F;
+  color: white;
+  font-family: Arial, sans-serif;
+  width: 600%;
+  max-width: 1500px; /* Increased max-width */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(31, 31, 31, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-left: 150px;
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 200%;
+}
+
+.auth-form .form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.auth-form label {
+  font-size: 18px;
+  font-weight: bold;
+  flex: 1;
+  text-align: right;
+}
+
+.auth-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 2;
+}
+
+.auth-form button {
+  padding: 10px;
+  
+  font-size: 18px;
+  color: white;
+  background-color: #0e9688c3;
+  border: none;
+  border-radius: px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  align-self: center;
+  margin: 0px; /* Center the button */
+  margin-left: 150px;
+  display: block;
+}
+
+.auth-form button:hover {
+  background-color: #009687a8;
+}
+
+.auth-link {
+  margin-top: 20px;
+  text-align: center;
+  padding-left: 150px;
+  width: 100%; /* Ensure full width for centering */
+  display: flex;
+  justify-content: center; /* Center the link */
+}
+
+.auth-link a {
+  color: #0e9688c3;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.auth-link a:hover {
+  color: #009687a8;
+}
+
+/* Page Container Styles */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #333;
+  padding: 20px; /* Removed extra space outside */
+}
