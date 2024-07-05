@@ -16,13 +16,13 @@ const App = () => {
   const [series, setSeries] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/movies')
+    fetch('/db.json')
       .then(response => response.json())
-      .then(data => setMovies(data));
-    
-    fetch('http://localhost:5000/series')
-      .then(response => response.json())
-      .then(data => setSeries(data));
+      .then(data => {
+        setMovies(data.movies);
+        setSeries(data.series); // Assuming your db.json also contains series data
+      })
+      .catch(error => console.error('Error fetching the JSON data:', error));
   }, []);
 
   return (
