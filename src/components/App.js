@@ -20,7 +20,7 @@ const App = () => {
   const [userDetails, setUserDetails] = useState(null); // Added userDetails state
   const navigate = useNavigate();
 
-  const API_BASE_URL = 'https://huko-backend.vercel.app/api';
+  const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || 'https://huko-backend.vercel.app/api';
 
   const fetchMoviesAndSeries = useCallback(() => {
     const fetchOptions = {
