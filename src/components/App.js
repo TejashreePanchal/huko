@@ -20,6 +20,8 @@ const App = () => {
   const [userDetails, setUserDetails] = useState(null); // Added userDetails state
   const navigate = useNavigate();
 
+  const API_BASE_URL = 'https://huko-backend.vercel.app/api';
+
   const fetchMoviesAndSeries = useCallback(() => {
     const fetchOptions = {
       headers: {
@@ -27,20 +29,20 @@ const App = () => {
       },
     };
 
-    fetch('http://localhost:5000/movies', fetchOptions)
+    fetch(`${API_BASE_URL}/movies`, fetchOptions)
       .then(response => response.json())
       .then(data => {
         setMovies(data.body);
       })
       .catch(error => console.error('Error fetching the movies data:', error));
 
-    fetch('http://localhost:5000/shows', fetchOptions)
+    fetch(`${API_BASE_URL}/shows`, fetchOptions)
       .then(response => response.json())
       .then(data => {
         setSeries(data.body);
       })
       .catch(error => console.error('Error fetching the shows data:', error));
-  }, []);
+  }, [API_BASE_URL]);
 
   useEffect(() => {
     fetchMoviesAndSeries();
@@ -55,7 +57,7 @@ const App = () => {
   }, []);
 
   const fetchUserDetails = (token) => {
-    fetch('http://localhost:5000/users/me', {
+    fetch(`${API_BASE_URL}/users/me`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

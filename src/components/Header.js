@@ -13,8 +13,8 @@ const Header = ({ isAuthenticated, onLogout }) => {
       return;
     }
     try {
-      const movieResponse = await fetch(`http://localhost:5000/movies/search?title=${searchQuery}`);
-      const showResponse = await fetch(`http://localhost:5000/shows/search?title=${searchQuery}`);
+      const movieResponse = await fetch(`https://huko-backend.vercel.app/api/movies/search?title=${searchQuery}`);
+      const showResponse = await fetch(`https://huko-backend.vercel.app/api/shows/search?title=${searchQuery}`);
 
       if (!movieResponse.ok || !showResponse.ok) {
         throw new Error('HTTP error!');

@@ -13,7 +13,7 @@ const MovieDetail = ({ isAuthenticated }) => {
 
   const handleRent = () => {
     if (isAuthenticated) {
-      alert('It will be added to your list after processiong payment ! Thank You Successfully added to your list');
+      alert('It will be added to your list after processing payment! Thank you. Successfully added to your list.');
       // Add logic to add the movie to the user's rented list
     } else {
       alert('Please log in to rent this movie');
@@ -22,7 +22,7 @@ const MovieDetail = ({ isAuthenticated }) => {
 
   const handleBuy = () => {
     if (isAuthenticated) {
-      alert('It will be added to your list after processiong payment ! Thank You ');
+      alert('It will be added to your list after processing payment! Thank you.');
       // Add logic to add the movie to the user's purchased list
     } else {
       alert('Please log in to buy this movie');

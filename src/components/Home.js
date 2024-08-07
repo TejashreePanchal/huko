@@ -2,7 +2,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import FeaturedMovie from './FeaturedMovie';
 import FeaturedSeries from './FeaturedSeries';
-import ContentSection from './Content';
+import ContentSection from './ContentSection';
 import image1 from '../images/content4.png'; // Replace with your actual image path
 import image2 from '../images/content2.jpg'; // Replace with your actual image path
 
